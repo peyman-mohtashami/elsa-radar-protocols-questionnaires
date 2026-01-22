@@ -8,7 +8,7 @@
       "name": "t0_baseline",
       "order": "0",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/elsa-radar-protocols-questionnaires/questionnaire/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/elsa-radar-protocols-questionnaires/master/questionnaires/",
         "name": "T0_BASELINE",
         "avsc": "questionnaire"
       },
@@ -52,7 +52,7 @@
       "name": "t1_endline",
       "order": "0",
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/elsa-radar-protocols-questionnaires/questionnaire/questionnaires/",
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/elsa-radar-protocols-questionnaires/master/questionnaires/",
         "name": "T1_ENDLINE",
         "avsc": "questionnaire"
       },
