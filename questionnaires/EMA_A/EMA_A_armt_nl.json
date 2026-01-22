@@ -1,0 +1,90 @@
+[
+  {
+    "field_name": "FL_WB3",
+    "field_type": "radio",
+    "field_label": "Ik heb stress door geldzaken.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Nooit",
+        "code": 1
+      },
+      {
+        "label": "Soms",
+        "code": 2
+      },
+      {
+        "label": "Vaak",
+        "code": 3
+      },
+      {
+        "label": "Altijd",
+        "code": 4
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_BH1",
+    "field_type": "radio",
+    "field_label": "Ik kijk (even) of ik het kan betalen voordat ik iets koop.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Nooit",
+        "code": 1
+      },
+      {
+        "label": "Soms",
+        "code": 2
+      },
+      {
+        "label": "Vaak",
+        "code": 3
+      },
+      {
+        "label": "Altijd",
+        "code": 4
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_CF1",
+    "field_type": "radio",
+    "field_label": "Ik vertrouw erop dat ik goede keuzes kan maken met geld.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Helemaal niet",
+        "code": 1
+      },
+      {
+        "label": "Een beetje",
+        "code": 2
+      },
+      {
+        "label": "Best wel",
+        "code": 3
+      },
+      {
+        "label": "Veel",
+        "code": 4
+      },
+      {
+        "label": "Heel veel",
+        "code": 5
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "MSG_STRESS_HIGH",
+    "field_label": "Veel mensen hebben stress door geld. Kleine stap: kies vandaag 1 rekening die je opent en even bekijkt. Dat is al winst.",
+    "field_type": "descriptive",
+    "branching_logic": "[FL_WB3] = '3' or [FL_WB3] = '4'"
+  },
+  {
+    "field_name": "MSG_CONF_LOW",
+    "field_label": "Je hoeft dit niet alleen te doen. Schrijf 1 vraag op en stel die aan iemand die je vertrouwt (familie, loket, hulpverlener).",
+    "field_type": "descriptive",
+    "branching_logic": "[FL_CF1] = '1' or [FL_CF1] = '2'"
+  }
+]

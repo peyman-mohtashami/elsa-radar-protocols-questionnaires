@@ -1,0 +1,342 @@
+[
+  {
+    "field_name": "FL_K1",
+    "field_type": "radio",
+    "field_label": "Stel je voor: Je hebt €100 op een spaarrekening. De rente is 2% per jaar. Hoe veel geld heb je na 5 jaar als op deze spaarrekening?",
+    "select_choices_or_calculations": [
+      {
+        "label": "Meer dan €102",
+        "code": "A"
+      },
+      {
+        "label": "Precies €102",
+        "code": "B"
+      },
+      {
+        "label": "Minder dan €102",
+        "code": "C"
+      },
+      {
+        "label": "Weet niet",
+        "code": "D"
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_K2",
+    "field_type": "radio",
+    "field_label": "Stel je voor: De rente op je spaarrekening was 1% per jaar. De inflatie was 2% per jaar. Hoe veel kun je kopen met dit geld na een jaar?",
+    "select_choices_or_calculations": [
+      {
+        "label": "Meer dan vandaag",
+        "code": "A"
+      },
+      {
+        "label": "Exact hetzelfde",
+        "code": "B"
+      },
+      {
+        "label": "Minder dan vandaag",
+        "code": "C"
+      },
+      {
+        "label": "Weet niet",
+        "code": "D"
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_K3",
+    "field_type": "radio",
+    "field_label": "Stel je voor: Een vriend erft vandaag €10.000. Zijn broer/zus erft over drie jaar €10.000. Wie van hen wordt het rijkst van hun erfenis?",
+    "select_choices_or_calculations": [
+      {
+        "label": "Mijn vriend",
+        "code": "A"
+      },
+      {
+        "label": "Zijn broer/zus",
+        "code": "B"
+      },
+      {
+        "label": "Ze zijn even rijk",
+        "code": "C"
+      },
+      {
+        "label": "Weet niet",
+        "code": "D"
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_K4",
+    "field_type": "radio",
+    "field_label": "Stel je voor: Een investeerder verspreidt zijn geld over verschillende activa. Het risico om het geld te verliezen gaat:",
+    "select_choices_or_calculations": [
+      {
+        "label": "Omhoog",
+        "code": "A"
+      },
+      {
+        "label": "Omlaag",
+        "code": "B"
+      },
+      {
+        "label": "Blijft hetzelfde",
+        "code": "C"
+      },
+      {
+        "label": "Weet niet",
+        "code": "D"
+      }
+    ],
+    "required_field": true
+  },
+
+  {
+    "field_name": "FL_WB3",
+    "field_type": "radio",
+    "field_label": "Ik heb stress door geldzaken.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Nooit",
+        "code": 1
+      },
+      {
+        "label": "Soms",
+        "code": 2
+      },
+      {
+        "label": "Vaak",
+        "code": 3
+      },
+      {
+        "label": "Altijd",
+        "code": 4
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_WB4",
+    "field_type": "radio",
+    "field_label": "Ik heb het gevoel dat ik grip heb op mijn geld.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Nooit",
+        "code": 1
+      },
+      {
+        "label": "Soms",
+        "code": 2
+      },
+      {
+        "label": "Vaak",
+        "code": 3
+      },
+      {
+        "label": "Altijd",
+        "code": 4
+      }
+    ],
+    "required_field": true
+  },
+
+  {
+    "field_name": "FL_CF1",
+    "field_type": "radio",
+    "field_label": "Ik vertrouw erop dat ik goede keuzes kan maken met geld.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Helemaal niet",
+        "code": 1
+      },
+      {
+        "label": "Een beetje",
+        "code": 2
+      },
+      {
+        "label": "Best wel",
+        "code": 3
+      },
+      {
+        "label": "Veel",
+        "code": 4
+      },
+      {
+        "label": "Heel veel",
+        "code": 5
+      }
+    ],
+    "required_field": true
+  },
+
+  {
+    "field_name": "FL_MOT1",
+    "field_type": "radio",
+    "field_label": "Ik wil zelf meer grip krijgen op mijn geldzaken.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Helemaal niet",
+        "code": 1
+      },
+      {
+        "label": "Bijna niet",
+        "code": 2
+      },
+      {
+        "label": "Best wel",
+        "code": 3
+      },
+      {
+        "label": "Bijna helemaal",
+        "code": 4
+      },
+      {
+        "label": "Helemaal",
+        "code": 5
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_MOT2",
+    "field_type": "radio",
+    "field_label": "Ik vind het belangrijk om mijn geldzaken goed te regelen.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Helemaal niet",
+        "code": 1
+      },
+      {
+        "label": "Bijna niet",
+        "code": 2
+      },
+      {
+        "label": "Best wel",
+        "code": 3
+      },
+      {
+        "label": "Bijna helemaal",
+        "code": 4
+      },
+      {
+        "label": "Helemaal",
+        "code": 5
+      }
+    ],
+    "required_field": true
+  },
+
+  {
+    "field_name": "FL_V1",
+    "field_type": "radio",
+    "field_label": "Je ziet een abonnement: €10 per maand. Na 6 maanden wordt het €18 per maand. Wat doe je?",
+    "select_choices_or_calculations": [
+      {
+        "label": "Ik neem het meteen.",
+        "code": "A"
+      },
+      {
+        "label": "Ik zoek eerst op wat het na 6 maanden kost.",
+        "code": "B"
+      },
+      {
+        "label": "Ik vraag iemand om mee te kijken.",
+        "code": "C"
+      },
+      {
+        "label": "Weet ik niet.",
+        "code": "D"
+      }
+    ],
+    "required_field": false
+  },
+  {
+    "field_name": "FL_V2",
+    "field_type": "radio",
+    "field_label": "Je krijgt onverwacht €200. Wat past het best bij jou?",
+    "select_choices_or_calculations": [
+      {
+        "label": "Ik betaal er (een deel van) rekeningen/schuld mee.",
+        "code": "A"
+      },
+      {
+        "label": "Ik zet het opzij voor later.",
+        "code": "B"
+      },
+      {
+        "label": "Ik geef het vooral uit aan iets leuks/nodigs.",
+        "code": "C"
+      },
+      {
+        "label": "Weet ik niet.",
+        "code": "D"
+      }
+    ],
+    "required_field": false
+  },
+
+  {
+    "field_name": "PL_EVAL1",
+    "field_type": "radio",
+    "field_label": "Vond je de vragen makkelijk te begrijpen?",
+    "select_choices_or_calculations": [
+      {
+        "label": "Ja",
+        "code": "yes"
+      },
+      {
+        "label": "Deels",
+        "code": "partly"
+      },
+      {
+        "label": "Nee",
+        "code": "no"
+      }
+    ],
+    "required_field": false
+  },
+  {
+    "field_name": "PL_EVAL2",
+    "field_type": "radio",
+    "field_label": "Hielpen de berichtjes/tips je?",
+    "select_choices_or_calculations": [
+      {
+        "label": "Ja",
+        "code": "yes"
+      },
+      {
+        "label": "Deels",
+        "code": "partly"
+      },
+      {
+        "label": "Nee",
+        "code": "no"
+      }
+    ],
+    "required_field": false
+  },
+
+  {
+    "field_name": "MSG_STRESS_HIGH",
+    "field_label": "Veel mensen hebben stress door geld. Kleine stap: kies vandaag 1 rekening die je opent en even bekijkt. Dat is al winst.",
+    "field_type": "descriptive",
+    "branching_logic": "[FL_WB3] = '3' or [FL_WB3] = '4'"
+  },
+  {
+    "field_name": "MSG_CONF_LOW",
+    "field_label": "Je hoeft dit niet alleen te doen. Schrijf 1 vraag op en stel die aan iemand die je vertrouwt (familie, loket, hulpverlener).",
+    "field_type": "descriptive",
+    "branching_logic": "[FL_CF1] = '1' or [FL_CF1] = '2'"
+  },
+  {
+    "field_name": "MSG_KNOW_DK",
+    "field_label": "Dit is lastig voor veel mensen. Als je wilt: rente = geld dat je krijgt voor sparen; inflatie = prijzen stijgen. Daardoor kun je later soms minder kopen.",
+    "field_type": "descriptive",
+    "branching_logic": "[FL_K1] = 'D'"
+  }
+]
