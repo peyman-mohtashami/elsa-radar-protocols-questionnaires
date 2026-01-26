@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.5",
   "schemaVersion": "0.0.2",
   "name": "aRMT-TEST Project",
   "healthIssues": [],
@@ -75,7 +75,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            144600
+            700
           ]
         },
         "completionWindow": {
