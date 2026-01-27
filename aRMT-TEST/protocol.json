@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "schemaVersion": "0.0.2",
   "name": "aRMT-TEST Project",
   "healthIssues": [],
@@ -32,6 +32,138 @@
           "unit": "min",
           "unitsFromZero": [
             600
+          ]
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "notification": {
+          "title": {
+            "nl": ""
+          },
+          "text": {
+            "nl": ""
+          }
+        }
+      }
+    },
+    {
+      "name": "ema_a",
+      "order": "0",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/elsa-radar-protocols-questionnaires/master/questionnaires/",
+        "name": "EMA_A",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": false,
+      "startText": {
+        "nl": ""
+      },
+      "endText": {
+        "nl": ""
+      },
+      "warn": {
+        "nl": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            630
+          ]
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "notification": {
+          "title": {
+            "nl": ""
+          },
+          "text": {
+            "nl": ""
+          }
+        }
+      }
+    },
+    {
+      "name": "ema_b",
+      "order": "0",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/elsa-radar-protocols-questionnaires/master/questionnaires/",
+        "name": "EMA_B",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": false,
+      "startText": {
+        "nl": ""
+      },
+      "endText": {
+        "nl": ""
+      },
+      "warn": {
+        "nl": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            640
+          ]
+        },
+        "completionWindow": {
+          "unit": "day",
+          "amount": 1
+        },
+        "notification": {
+          "title": {
+            "nl": ""
+          },
+          "text": {
+            "nl": ""
+          }
+        }
+      }
+    },
+    {
+      "name": "ema_c",
+      "order": "0",
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/peyman-mohtashami/elsa-radar-protocols-questionnaires/master/questionnaires/",
+        "name": "EMA_C",
+        "avsc": "questionnaire"
+      },
+      "showIntroduction": false,
+      "startText": {
+        "nl": ""
+      },
+      "endText": {
+        "nl": ""
+      },
+      "warn": {
+        "nl": ""
+      },
+      "estimatedCompletionTime": 2,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "year",
+          "amount": 999
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            650
           ]
         },
         "completionWindow": {
