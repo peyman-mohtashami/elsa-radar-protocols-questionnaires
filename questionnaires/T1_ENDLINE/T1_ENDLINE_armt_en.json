@@ -103,19 +103,19 @@
     "select_choices_or_calculations": [
       {
         "label": "Nooit",
-        "code": 1
+        "code": "1"
       },
       {
         "label": "Soms",
-        "code": 2
+        "code": "2"
       },
       {
         "label": "Vaak",
-        "code": 3
+        "code": "3"
       },
       {
         "label": "Altijd",
-        "code": 4
+        "code": "4"
       }
     ],
     "required_field": true
@@ -127,19 +127,19 @@
     "select_choices_or_calculations": [
       {
         "label": "Nooit",
-        "code": 1
+        "code": "1"
       },
       {
         "label": "Soms",
-        "code": 2
+        "code": "2"
       },
       {
         "label": "Vaak",
-        "code": 3
+        "code": "3"
       },
       {
         "label": "Altijd",
-        "code": 4
+        "code": "4"
       }
     ],
     "required_field": true
@@ -152,23 +152,23 @@
     "select_choices_or_calculations": [
       {
         "label": "Helemaal niet",
-        "code": 1
+        "code": "1"
       },
       {
         "label": "Een beetje",
-        "code": 2
+        "code": "2"
       },
       {
         "label": "Best wel",
-        "code": 3
+        "code": "3"
       },
       {
         "label": "Veel",
-        "code": 4
+        "code": "4"
       },
       {
         "label": "Heel veel",
-        "code": 5
+        "code": "5"
       }
     ],
     "required_field": true
@@ -181,23 +181,23 @@
     "select_choices_or_calculations": [
       {
         "label": "Helemaal niet",
-        "code": 1
+        "code": "1"
       },
       {
         "label": "Bijna niet",
-        "code": 2
+        "code": "2"
       },
       {
         "label": "Best wel",
-        "code": 3
+        "code": "3"
       },
       {
         "label": "Bijna helemaal",
-        "code": 4
+        "code": "4"
       },
       {
         "label": "Helemaal",
-        "code": 5
+        "code": "5"
       }
     ],
     "required_field": true
@@ -209,23 +209,23 @@
     "select_choices_or_calculations": [
       {
         "label": "Helemaal niet",
-        "code": 1
+        "code": "1"
       },
       {
         "label": "Bijna niet",
-        "code": 2
+        "code": "2"
       },
       {
         "label": "Best wel",
-        "code": 3
+        "code": "3"
       },
       {
         "label": "Bijna helemaal",
-        "code": 4
+        "code": "4"
       },
       {
         "label": "Helemaal",
-        "code": 5
+        "code": "5"
       }
     ],
     "required_field": true
