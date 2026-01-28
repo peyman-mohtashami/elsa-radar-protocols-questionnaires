@@ -1,0 +1,84 @@
+[
+  {
+    "field_name": "FL_WB4",
+    "field_type": "radio",
+    "field_label": "Ik heb het gevoel dat ik grip heb op mijn geld.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Nooit",
+        "code": 1
+      },
+      {
+        "label": "Soms",
+        "code": 2
+      },
+      {
+        "label": "Vaak",
+        "code": 3
+      },
+      {
+        "label": "Altijd",
+        "code": 4
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_BH2",
+    "field_type": "radio",
+    "field_label": "Ik houd bij wat er binnenkomt en uitgaat (bv. in app, schrift, bank).",
+    "select_choices_or_calculations": [
+      {
+        "label": "Nooit",
+        "code": 1
+      },
+      {
+        "label": "Soms",
+        "code": 2
+      },
+      {
+        "label": "Vaak",
+        "code": 3
+      },
+      {
+        "label": "Altijd",
+        "code": 4
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_CF3",
+    "field_type": "radio",
+    "field_label": "Ik durf vragen te stellen over geldzaken.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Helemaal niet",
+        "code": 1
+      },
+      {
+        "label": "Een beetje",
+        "code": 2
+      },
+      {
+        "label": "Best wel",
+        "code": 3
+      },
+      {
+        "label": "Veel",
+        "code": 4
+      },
+      {
+        "label": "Heel veel",
+        "code": 5
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "MSG_BEHAVIOUR_LOW",
+    "field_label": "Tip (2 minuten): open je bank-app en kijk wat er deze week binnenkwam en uitging. Alleen even kijken helpt al voor overzicht.",
+    "field_type": "descriptive",
+    "branching_logic": "[FL_BH2] = '1' or [FL_BH2] = '2'"
+  }
+]

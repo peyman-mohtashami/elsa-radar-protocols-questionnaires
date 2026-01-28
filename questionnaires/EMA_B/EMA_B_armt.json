@@ -1,0 +1,78 @@
+[
+  {
+    "field_name": "FL_WB2",
+    "field_type": "radio",
+    "field_label": "Aan het eind van de maand kom ik geld tekort.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Nooit",
+        "code": 1
+      },
+      {
+        "label": "Soms",
+        "code": 2
+      },
+      {
+        "label": "Vaak",
+        "code": 3
+      },
+      {
+        "label": "Altijd",
+        "code": 4
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_BH3",
+    "field_type": "radio",
+    "field_label": "Ik betaal rekeningen op tijd.",
+    "select_choices_or_calculations": [
+      {
+        "label": "Nooit",
+        "code": 1
+      },
+      {
+        "label": "Soms",
+        "code": 2
+      },
+      {
+        "label": "Vaak",
+        "code": 3
+      },
+      {
+        "label": "Altijd",
+        "code": 4
+      }
+    ],
+    "required_field": true
+  },
+  {
+    "field_name": "FL_CF2",
+    "field_type": "radio",
+    "field_label": "Als ik het niet begrijp, vraag ik om hulp (familie, loket, schuldhulp, bank).",
+    "select_choices_or_calculations": [
+      {
+        "label": "Helemaal niet",
+        "code": 1
+      },
+      {
+        "label": "Een beetje",
+        "code": 2
+      },
+      {
+        "label": "Best wel",
+        "code": 3
+      },
+      {
+        "label": "Veel",
+        "code": 4
+      },
+      {
+        "label": "Heel veel",
+        "code": 5
+      }
+    ],
+    "required_field": true
+  }
+]
