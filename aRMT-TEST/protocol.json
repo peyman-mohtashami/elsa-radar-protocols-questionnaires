@@ -1,5 +1,5 @@
 {
-  "version": "0.0.12",
+  "version": "0.0.13",
   "schemaVersion": "0.0.2",
   "name": "aRMT-TEST Project",
   "healthIssues": [],
@@ -46,10 +46,10 @@
         },
         "notification": {
           "title": {
-            "nl": ""
+            "nl": "NL Title"
           },
           "text": {
-            "nl": ""
+            "nl": "NL Text"
           }
         }
       }
@@ -90,10 +90,10 @@
         },
         "notification": {
           "title": {
-            "nl": ""
+            "nl": "NL Title"
           },
           "text": {
-            "nl": ""
+            "nl": "NL Text"
           }
         }
       }
@@ -134,10 +134,10 @@
         },
         "notification": {
           "title": {
-            "nl": ""
+            "nl": "NL Title"
           },
           "text": {
-            "nl": ""
+            "nl": "NL Text"
           }
         }
       }
@@ -178,10 +178,10 @@
         },
         "notification": {
           "title": {
-            "nl": ""
+            "nl": "NL Title"
           },
           "text": {
-            "nl": ""
+            "nl": "NL Text"
           }
         }
       }
@@ -222,10 +222,10 @@
         },
         "notification": {
           "title": {
-            "nl": ""
+            "nl": "NL Title"
           },
           "text": {
-            "nl": ""
+            "nl": "NL Text"
           }
         }
       }
